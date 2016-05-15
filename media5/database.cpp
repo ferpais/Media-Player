@@ -13,7 +13,7 @@ bool Database::connOpen()
 {
     mydb=QSqlDatabase::addDatabase("QSQLITE");
     mydb.setDatabaseName(QDir::currentPath() +"/debug/database.db");
-
+tetretretretre
     if(!mydb.open()){
         qDebug() << ("Falha a abrir a DB");
         return false;
